@@ -1,0 +1,8 @@
+﻿DyalogBuild: 0.1
+ID         : aplasync, Version=0.1
+Description: Simple APL tasks
+Defaults   : ⎕IO←⎕ML←1
+TARGET     : Distribution/aplasync.dws
+
+APL   : Source/*.dyalog, Target=#
+LX    : bootstrap 
