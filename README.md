@@ -25,7 +25,7 @@ Let have a APL function which should be executed as asynchronius task:
   ⍝ Do something:
   ⎕DL arg
   ⍝ Return something: 
-  res← ?arg 
+  res← (?arg) (?arg)
   ∇
 ```
 
